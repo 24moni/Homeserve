@@ -1,12 +1,154 @@
-# HandyVibe Web
+# 🏠 HomeServe – On-Demand Home Services Platform (Full Stack)
 
-1. Create file `.env` in project root:
-   VITE_API_URL=http://localhost:5000/api
+## 🌟 Overview
 
-2. Install:
-   npm install
+**HomeServe** is a full-stack web application designed to provide **reliable, on-demand home services**. It solves the common problem of finding trusted professionals by connecting users with **verified service providers** for cleaning, plumbing, electrical work, appliance repair, and more.
 
-3. Start dev:
-   npm run dev
+The platform ensures **transparency, fixed pricing, and quality service**, making the booking experience simple and efficient.
 
-Visit http://localhost:5173 (or Vite's shown URL)
+---
+
+## 🚀 Live Demo
+
+🔗 Deployment Link: https://tinyurl.com/mr3t4jak
+
+---
+
+## 📌 Problem Statement
+
+In urban areas, users face difficulty in finding:
+
+* Trusted service providers
+* Transparent pricing
+* Reliable and timely services
+
+Traditional services lack verification, consistency, and digital accessibility.
+
+---
+
+## 💡 Proposed Solution
+
+HomeServe provides a **tech-enabled solution** where users can:
+
+* Book services online
+* Choose verified professionals
+* Track bookings in real-time
+* Enjoy standardized pricing
+
+---
+
+## ✨ Features
+
+* 🔐 User Authentication (Login/Signup)
+* 🧑‍🔧 Verified Service Providers
+* 🔍 Search & filter services
+* 📅 Easy booking & scheduling
+* 📦 Real-time booking updates
+* 💰 Fixed pricing model
+* ⭐ Ratings & reviews
+* 📞 Customer support system
+
+---
+
+## 🧩 Services Offered
+
+* Home Cleaning
+* Plumbing
+* Electrical Services
+* Appliance Repair
+* Beauty & Spa
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend:
+
+* HTML
+* CSS
+* JavaScript
+
+### Backend:
+
+* Node.js
+* Express.js
+
+### Database:
+
+* MongoDB (Mongoose)
+
+---
+
+## 📁 Project Structure
+
+```
+Homeserve/
+│── models/
+│   ├── User.js
+│   ├── Service.js
+│   ├── Booking.js
+│
+│── routes/
+│   ├── auth.js
+│
+│── public/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│
+│── server.js
+│── package.json
+│── README.md
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/24moni/Homeserve.git
+```
+
+2. Navigate to project folder
+
+```bash
+cd Homeserve
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Run the server
+
+```bash
+node server.js
+```
+
+---
+
+## 📈 Future Enhancements
+
+* 💳 Payment gateway integration
+* 📱 Mobile app development
+* 📊 Admin dashboard
+* 📍 Live tracking with maps
+* 🤖 AI-based service recommendations
+
+---
+
+## 👨‍💻 Authors
+
+* **Monideepa Das**
+* **Sneha Jha**
+
+---
+
+## 📄 License
+
+© 2026 HomeServe. All rights reserved.
+

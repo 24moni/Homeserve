@@ -25,7 +25,7 @@ Traditional services lack verification, consistency, and digital accessibility.
 
 ---
 
-## 💡 Proposed Solution
+## 💡  Solution
 
 HomeServe provides a **tech-enabled solution** where users can:
 

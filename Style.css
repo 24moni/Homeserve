@@ -1,0 +1,245 @@
+/* Base resets & typography */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #f9fafd;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  /* Header */
+  header {
+    background: #004080;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  .logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  nav li {
+    font-weight: 600;
+  }
+  nav a:hover, nav button:hover {
+    color: #ffa500;
+    cursor: pointer;
+  }
+  nav button {
+    background: #ffa500;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-weight: 700;
+    padding: 0.5rem 1.5rem;
+    transition: background-color 0.3s ease;
+  }
+  nav button:hover {
+    background: #e69500;
+  }
+
+  /* Hero Section */
+  .hero {
+    background: linear-gradient(rgba(0,64,128,0.82), rgba(0,64,128,0.82)), url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+    color: white;
+    padding: 6rem 2rem 8rem;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    max-width: 640px;
+    margin: 0 auto 2.5rem;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  .hero button {
+    background-color: #ffa500;
+    border: none;
+    padding: 1rem 3rem;
+    font-weight: 700;
+    font-size: 1.3rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .hero button:hover {
+    background-color: #e68a00;
+  }
+
+  /* Services Section */
+  .services {
+    max-width: 1100px;
+    padding: 3.5rem 2rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 2.5rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.07);
+  }
+  .service-card {
+    background: #e6f0ff;
+    padding: 2rem 1.5rem;
+    border-radius: 12px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 64, 128, 0.2);
+  }
+  .service-card .icon {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #004080;
+  }
+  .service-card h3 {
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #003366;
+  }
+
+  /* Subscription Section */
+  .subscription {
+    background-color: #004080;
+    color: white;
+    padding: 5rem 2rem;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+    margin-top: 3rem;
+  }
+  .subscription h2 {
+    font-size: 2.7rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+  }
+  .subscription p {
+    max-width: 580px;
+    margin: 0 auto 2.5rem;
+    font-weight: 500;
+  }
+  .subscription button {
+    background: #ffa500;
+    border: none;
+    border-radius: 30px;
+    padding: 1rem 3.5rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .subscription button:hover {
+    background-color: #e68a00;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #002c66;
+    color: #b5cede;
+    padding: 5rem 2rem 3rem;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px, 1fr));
+    gap: 3rem;
+    max-width: 1100px;
+    margin: 0 auto 2rem;
+  }
+  .footer-section h3 {
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 1.3rem;
+    color: #ffa500;
+  }
+  .footer-section p, .footer-section a {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #b5cede;
+  }
+  .footer-section a:hover {
+    color: #ffa500;
+    text-decoration: underline;
+  }
+  .social-icons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1.1rem;
+  }
+  .social-icons a {
+    font-size: 1.8rem;
+    color: #b5cede;
+    transition: color 0.3s ease;
+  }
+  .social-icons a:hover {
+    color: #ffa500;
+  }
+  .footer-bottom {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #8daade;
+    margin-top: 1.5rem;
+  }
+
+
+  /* Responsive */
+  @media (max-width: 640px) {
+    .hero h1 {
+      font-size: 2.3rem;
+    }
+    .subscription h2 {
+      font-size: 2rem;
+    }
+  }
+  /* Modals */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 10000;
+  left: 0; top: 0; width: 100%; height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  overflow: auto;
+}
+.modal-content {
+  background-color: #fff;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+  position: relative;
+}
+.close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  color: #aaa;
+  cursor: pointer;
+}
+.close:hover { color: black; }
+form label { display: block; margin-bottom: 15px; font-weight: 600; }
+form input, form select { width: 100%; padding: 8px; margin-top: 5px; border-radius: 6px; border: 1px solid #ccc; }
+form button { width: 100%; padding: 12px; background: #004080; color: white; font-weight: 700; border: none; border-radius: 8px; cursor: pointer; }
+form button:hover { background: #00264d; }

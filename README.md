@@ -1,4 +1,4 @@
-# 🏠 HomeServe – On-Demand Home Services Platform (Full Sta
+# 🏠 HomeServe – On-Demand Home Services Platform (Full St
 
 ## 🌟 Overview
 HomeServe is a full-stack web application that simplifies access to reliable home services by connecting users with verified professionals. The platform addresses common challenges such as lack of trust, inconsistent pricing, and poor service quality in traditional service markets.

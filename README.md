@@ -20,7 +20,7 @@ In urban areas, users face difficulty in finding:
 
 * Trusted service providers
 * Transparent pricing
-* Reliable and timely service
+* Reliable and timely services
 
 Traditional services lack verification, consistency, and digital accessibility.
 

@@ -8,7 +8,7 @@ The platform ensures **transparency, fixed pricing, and quality service**, makin
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Link
 
 🔗 Deployment Link: https://tinyurl.com/mr3t4jak
 
